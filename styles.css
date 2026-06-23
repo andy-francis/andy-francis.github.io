@@ -16,5 +16,5 @@ pre.logo {
   white-space: pre;
   line-height: 1;
 
-  font-size: calc(100vw / 110);
+  font-size: clamp(4px, calc(100vw / 110), 12px);
 }
