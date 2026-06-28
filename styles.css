@@ -1,22 +1,15 @@
 body {
-    background-color: #f4f4f4; /* Sets page background */
-    font-family: 'Courier New', Courier, monospace; /* Sets text font */
+    background-color: #f4f4f4; 
+    font-family: 'Courier New', Courier, monospace; 
+    grid-template-rows: minmax(2.5rem, 12vmin) 1fr 5rem;
 }
-.bio {
-    font-size: clamp(22px, 2.5vw, 30px); /* Responsive font size */
-}
-.logo-container {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-
-  container-type: inline-size;
-}
-
 pre.logo {
   font-family: monospace;
   white-space: pre;
   line-height: 1;
 
-  font-size: clamp(4px, calc(100cqw / 110), 18px);
+  font-size: 1vw;
+}
+.bio {
+    font-size: 1rem;
 }
